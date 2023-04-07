@@ -18,14 +18,6 @@ public class Looping {
         String movimentacao = "";
         double saldo = 10000.00;
 
-        /**
-         * Operacoes
-         */
-        int consultaSaldo = 1;
-        int deposito = 2;
-        int saque = 3;
-        int extrato = 4;
-        int sair = 5;
 
         // Saudacao inicial
         System.out.println(String.format("""
@@ -54,7 +46,7 @@ public class Looping {
                 System.out.println(String.format("""
                 *******************************************
                 
-                Saldo disponível: R$ %.2f            
+                Saldo disponível: R$ %.2f           
                 
                 *******************************************
                 """, saldo));
@@ -72,7 +64,7 @@ public class Looping {
                 System.out.println(String.format("""
                 *******************************************
                 
-                Digite quanto deseja depositar:            
+                Digite quanto deseja depositar:           
                 
                 *******************************************
                 """));
@@ -98,7 +90,7 @@ public class Looping {
                 System.out.println(String.format("""
                     *******************************************
                     
-                    Digite quanto deseja sacar:           
+                    Digite quanto deseja sacar:          
                     
                     *******************************************
                     """));
@@ -124,7 +116,7 @@ public class Looping {
                 System.out.println(String.format("""
                     *******************************************
                     
-                    Seu extrato:   
+                    Seu extrato:  
                     %s        
                     
                     *******************************************
@@ -143,7 +135,7 @@ public class Looping {
                 System.out.println(String.format("""
                     *******************************************
                     
-                    Obrigado por usar nossos serviços. Até breve       
+                    Obrigado por usar nossos serviços. Até breve      
                     
                     *******************************************
                     """));

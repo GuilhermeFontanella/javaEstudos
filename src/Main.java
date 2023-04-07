@@ -6,7 +6,6 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
 
         /** TIPOS PRIMITIVOS JAVA
-         *
          * boolean = true/false;
          * byte = valores de -128 a 127;
          * char = caracteres individuais "a";
@@ -18,7 +17,7 @@ public class Main {
          */
 
         int ano = 2022;
-        boolean incluidoPlano = false;
+        //boolean incluidoPlano = false;
         double nota = 8.5;
         double nota2 = 5.0;
         double media = (nota + nota2) / 2;
@@ -30,7 +29,6 @@ public class Main {
          *  que são representados pelo caractere % seguido de uma letra que indica o tipo de dado que será inserido no placeholder.
          *  Por exemplo, %s indica que uma String será inserida no placeholder,
          *  %d indica um valor inteiro e %f indica um valor decimal. Vamos ver um exemplo:
-         *
          *  String nome = "Maria";
          * int idade = 30;
          * double valor = 55.9999;
@@ -44,8 +42,8 @@ public class Main {
                 Nota geral do filme: %.2f.
                 """, nomeFilme, ano, media));
 
-        double x = 10.5;
-        int y = (int) x; // casting explícito
+        //double x = 10.5;
+        //int y = (int) x; // casting explícito
 
         double temperaturaC = 25;
         double temperaturaF = (temperaturaC * 1.8) + 32;
